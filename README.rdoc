@@ -1,3 +1,7 @@
+== same as chrisfuller's mongodb_fulltext_search, but excludes rails as a dependency
+
+This was done to allow use of mongodb_fulltext_search with any version/branch of rails
+
 = mongodb_fulltext_search
 
 A gem that adds fulltext search capability to Mongoid[http://mongoid.org/] or MongoMapper[http://mongomapper.com/] documents. The MongoDB[http://mongodb.org/] aggregation framework is utilized to perform searches quickly and efficiently.
